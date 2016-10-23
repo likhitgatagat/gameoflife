@@ -2,46 +2,46 @@ package com.conway.gameoflife;
 
 public class Cell {
 
-	private int stateOfCell;
-	private int numberOfLiveNeighbours;
-	private int rowNum;
-	private int columnNum;
-	
-	public Cell(int state, int rowNum, int ColumnNum) {
-		this.setStateOfCell(state);
-		this.setRowNum(rowNum);
-		this.setColumnNum(columnNum);
-	}
+    private int stateOfCell;
+    private int numberOfLiveNeighbours;
+    private int rowNum;
+    private int columnNum;
 
-	public int getStateOfCell() {
-		return stateOfCell;
-	}
+    public Cell(int state, int rowNum, int ColumnNum) {
+        this.setStateOfCell(state);
+        this.setRowNum(rowNum);
+        this.setColumnNum(columnNum);
+    }
 
-	public void setStateOfCell(int stateOfCell) {
-		this.stateOfCell = stateOfCell;
-	}
+    public int getStateOfCell() {
+        return stateOfCell;
+    }
 
-	public int getNumberOfLiveNeighbours() {
-		return numberOfLiveNeighbours;
-	}
+    public void setStateOfCell(int stateOfCell) {
+        this.stateOfCell = stateOfCell;
+    }
 
-	public void setNumberOfLiveNeighbours(int numberOfLiveNeighbours) {
-		this.numberOfLiveNeighbours = numberOfLiveNeighbours;
-	}
+    public int getNumberOfLiveNeighbours() {
+        return numberOfLiveNeighbours;
+    }
 
-	public int getRowNum() {
-		return rowNum;
-	}
+    public void setNumberOfLiveNeighbours(int numberOfLiveNeighbours) {
+        this.numberOfLiveNeighbours = numberOfLiveNeighbours;
+    }
 
-	public void setRowNum(int rowNum) {
-		this.rowNum = rowNum;
-	}
+    public int getRowNum() {
+        return rowNum;
+    }
 
-	public int getColumnNum() {
-		return columnNum;
-	}
+    public void setRowNum(int rowNum) {
+        this.rowNum = rowNum;
+    }
 
-	public void setColumnNum(int columnNum) {
-		this.columnNum = columnNum;
-	}
+    public int getColumnNum() {
+        return columnNum;
+    }
+
+    public void setColumnNum(int columnNum) {
+        this.columnNum = columnNum;
+    }
 }
